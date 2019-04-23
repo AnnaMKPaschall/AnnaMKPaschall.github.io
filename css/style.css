@@ -64,6 +64,9 @@ html, body {
 }
 
 .no-gutters {
+  display: flex; 
+  flex-direction: column;
+  
   margin-right: 0;
   margin-left: 0;
 }
@@ -72,6 +75,10 @@ html, body {
 .no-gutters > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
+}
+
+#portfolio-row {
+  flex-direction: row; 
 }
 
 .mt {
@@ -385,7 +392,7 @@ nm {
 }
 
 #portfolio .portfolio-item h2 {
-  color: #ffffff;
+  color: grey;
   font-size: 24px;
   margin: 0;
   text-transform: capitalize;
