@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+i {
+  font-size: 155px; 
+}
+
 p {
   padding: 0;
   margin-bottom: 12px;
@@ -399,7 +403,7 @@ nm {
 }
 
 #portfolio .portfolio-item h2 {
-  color: grey;
+  color: #fff;
   font-size: 24px;
   margin: 0;
   text-transform: capitalize;
