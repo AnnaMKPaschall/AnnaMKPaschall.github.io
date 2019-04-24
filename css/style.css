@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+.devicon-react-original-wordmark:before, .devicon-react-plain-wordmark:before {
+  font-size: 155px; 
+}
+
+
 i {
   font-size: 155px; 
 }
