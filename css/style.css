@@ -77,9 +77,9 @@ html, body {
   padding-left: 0;
 }
 
-#portfolio-row {
+/* #portfolio-row {
   flex-direction: row; 
-}
+} */
 
 .mt {
   margin-top: 50px;
@@ -235,6 +235,11 @@ hr {
   background-image: url('../img/intro-bg.jpg');
 }
 
+#anna-pic img {
+  height: 250px; 
+  width: 250px; 
+}
+
 .main-title {
   position: absolute;
   margin: 0;
@@ -319,6 +324,8 @@ hr {
   background-image: url('../img/news-bg.jpg');
   background-size: cover;
 }
+
+
 
 .news .container {
   width: 100%
